@@ -6,22 +6,22 @@ import java.util.List;
 /**
  * Created by joanperny on 17/02/2014.
  */
-public class Sujet {
-    protected List<Sujet> sujets = new ArrayList<Sujet>();
+public class Sujets {
+    protected List<Sujets> sujets = new ArrayList<Sujets>();
     
-    public void Add(Sujet sujet)
+    public void Add(Sujets sujet)
     {
         sujets.add(sujet);
     }
     
-    public void Remove(Sujet sujet)
+    public void Remove(Sujets sujet)
     {
         sujets.remove(sujet);
     }
 
     public void notifie()
     {
-        for (Sujet sujet : sujets)
+        for (Sujets sujet : sujets)
             sujet.actualise();
     }
 

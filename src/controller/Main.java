@@ -1,6 +1,5 @@
 package controller;
 
-import com.sun.org.apache.xerces.internal.dom.ChildNode;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,7 +11,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("../view/Login.fxml"));
-        root.getStylesheets().add("view/sample.css");
+        root.getStylesheets().add("controller/css/Authentification.css");
         primaryStage.setTitle("Hello World");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
