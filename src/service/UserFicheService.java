@@ -1,4 +1,6 @@
-package model;
+package service;
+
+import model.UserFiche;
 
 import java.util.List;
 

@@ -1,4 +1,8 @@
-package model;
+package service;
+
+import model.Gender;
+import model.UserFiche;
+import model.UserLogin;
 
 import java.util.*;
 
