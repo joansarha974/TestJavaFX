@@ -8,7 +8,14 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
+import java.sql.DriverManager;
+
 import javafx.stage.Stage;
+import model.UserLogin;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
 import  org.sqlite.JDBC;
 
 import java.awt.*;
@@ -26,60 +33,52 @@ public class LoginController {
 
 
     public void onSignIn(ActionEvent actionEvent) {
+        System.out.println("successfully saved");
         if (username.getText().isEmpty() && password.getText().isEmpty()){
             //message
             messageLabel.setText("Login is missing");
         }
         else {
+            System.out.println("successfully saved");
             //getting values from form Login
-            String user = username.getText();
-            String pwd = password.getText();
+            //String user = username.getText();
+            //String pwd = password.getText();
 
             //create a database connection sqlite
 
-            Connection connection = null;
+            messageLabel.setText("1");
 
-            try{
-                connection = DriverManager.getConnection("jdbc:sqlite:Database.db");
-                Statement statement = connection.createStatement();
-                statement.setQueryTimeout(30); //set timeout to 30 sec
 
-                //statement.executeUpdate("drop table if exists person");
-                //statement.executeUpdate("create table person (id integer, name string)");
-                //statement.executeUpdate("insert into person values(1, 'leo')");
-                //statement.executeUpdate("insert into person values(2, 'yui')");
+            //creating configuration object
+            Configuration cfg=new Configuration();
+            messageLabel.setText("2");
+            cfg.configure("resources/hibernate.cfg.xml");//populates the data of the configuration file
+            messageLabel.setText("3");
+            //creating session factory object
+            SessionFactory factory=cfg.buildSessionFactory();
+            messageLabel.setText("4");
+            //creating session object
+            Session session=factory.openSession();
+            messageLabel.setText("5");
+            //creating transaction object
+            Transaction t=session.beginTransaction();
+            messageLabel.setText("6");
+            UserLogin e1;
+            messageLabel.setText("7");
+            e1 = new UserLogin();
+            messageLabel.setText("8");
+            e1.setId(115);
+            e1.setUsername("admin");
+            e1.setPassword("admin");
+            messageLabel.setText("9");
+            session.persist(e1);//persisting the object
+            messageLabel.setText("10");
+            t.commit();//transaction is commited
+            messageLabel.setText("11");
+            session.close();
+            messageLabel.setText("12");
 
-                ResultSet rs = statement.executeQuery("select * from User " +
-                        "where username == '"+user+"' and password =='"+pwd+"'");
-                if(rs.next())
-                {
-                    // redirige vers dossier.fxml
-                    Parent root = FXMLLoader.load(getClass().getResource("view/DossierView.fxml"));
-                    Scene scene = new Scene(root);
-                    stage = new Stage();
-                    stage.setScene(scene);
-                    stage.show();
 
-                }
-                else {
-                    messageLabel.setText("incorrect details!");
-                }
-            }catch (SQLException e)
-            {
-                // if the error message is "out of memory",
-                // it probably means no database file is found
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            } finally {
-                try {
-                    if(connection != null)
-                        connection.close();
-                } catch (SQLException e) {
-                    // connection close failed.
-                    e.printStackTrace();
-                }
-            }
         }
     }
 
@@ -91,5 +90,10 @@ public class LoginController {
 
         //indique que les champs sont reset
         messageLabel.setText("Reset values ...");
+    }
+
+    public void onSignCreate(ActionEvent actionEvent) {
+        //Create database
+
     }
 }

@@ -9,7 +9,6 @@ import javafx.scene.text.Text;
  * Created by joanperny on 17/02/2014.
  */
 public class DossierController {
-    public TextField name;
     public TextField surname;
     public TextField birthday;
     public TextField noDossier;
@@ -20,6 +19,7 @@ public class DossierController {
     public TextField lieu;
     public ListView listViewSujet;
     public Text remarques;
+    public TextField lastname;
 
     public void onAddDossier(ActionEvent actionEvent) {
     }

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="resources">
+    <class name="model.UserLogin" table="userLogin">
+        <id name="id" column="id" type="java.lang.Long">
+            <generator class="native"></generator>
+        </id>
+        <property name="username" column="username" type="java.lang.String"/>
+        <property name="password" column="password" type="java.lang.String"/>
+        <property name="created" column="created" type="java.util.Date"/>
+        <property name="lastModified" column="lastModified" type="java.util.Date"/>
+    </class>
+    <class name="model.UserFiche" table="Folder">
+        <id name="id" column="id" type="java.lang.Long">
+            <generator class="native"></generator>
+        </id>
+        <property name="gender" column="gender"/>
+        <property name="surname" column="surname" type="java.lang.String"/>
+        <property name="lastname" column="name" type="java.lang.String"/>
+        <property name="birthday" column="birthdayDate" type="java.util.Date"/>
+        <property name="numero" column="folderNumber" type="java.lang.Integer"/>
+        <property name="phone" column="address1" type="java.lang.String"/>
+        <property name="phone" column="address2" type="java.lang.String"/>
+        <property name="phone" column="district" type="java.lang.String"/>
+        <property name="phone" column="postalCode" type="java.lang.String"/>
+        <property name="phone" column="city" type="java.lang.String"/>
+        <property name="phone" column="phone1" type="java.lang.String"/>
+        <property name="phone2" column="phone2" type="java.lang.String"/>
+        <property name="phone" column="nationality" type="java.lang.String"/>
+        <property name="phone" column="maritalStatus" type="java.lang.String"/>
+        <property name="phone" column="birthCountry" type="java.lang.String"/>
+        <property name="created" column="firstEntryFranceDate" type="java.util.Date"/>
+        <property name="remarque" column="professionalStatus" type="java.lang.String"/>
+        <property name="remarque" column="remarks" type="java.lang.String"/>
+        <property name="created" column="created" type="java.util.Date"/>
+        <property name="lastModified" column="lastModified" type="java.util.Date"/>
+    </class>
+</hibernate-mapping>

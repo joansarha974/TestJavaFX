@@ -1,41 +1,44 @@
 package service;
 
-import model.Gender;
 import model.UserFiche;
 import model.UserLogin;
+import model.Gender;
 
 import java.util.*;
 
-import static model.Gender.*;
-
 /**
- * Created by joanperny on 17/02/2014.
+ * Created by joanperny on 19/02/2014.
  */
-public class SimpleUserFicheService implements UserFicheService
-{
+
+
+
+public class UserFicheServiceImpl implements UserFicheService {
+
     private long nextId = 0;
     private long newId = 0;
     private Map<Long, UserFiche> userFiches;
-    
-    public SimpleUserFicheService()
+    private Gender gender;
+
+
+    public UserFicheServiceImpl()
     {
         this.userFiches = new HashMap<Long, UserFiche>();
 
         UserLogin userLogin;
-        userLogin = new UserLogin(newId++, female, "Joan Sarha", "Perny");
+        userLogin = new UserLogin();
 
         Date aujourdhui;
         aujourdhui = new Date();
 
-        createUserFiche(female,"user1", "useruser", userLogin,
+        createUserFiche(gender.female,"user1", "useruser", userLogin,
                 "1", aujourdhui);
-        createUserFiche(female,"Joan Sarha", "perny", userLogin,
+        createUserFiche(gender.female,"Joan Sarha", "perny", userLogin,
                 "2", aujourdhui);
-        createUserFiche(male,"Patrice", "hoareau", userLogin,
+        createUserFiche(gender.male,"Patrice", "hoareau", userLogin,
                 "3", aujourdhui);
-        createUserFiche(male,"Thomas-Alexandre", "Perny-Hoareau", userLogin,
+        createUserFiche(gender.male,"Thomas-Alexandre", "Perny-Hoareau", userLogin,
                 "4", aujourdhui);
-        createUserFiche(male,"William", "Perny-Hoareau", userLogin,
+        createUserFiche(gender.male,"William", "Perny-Hoareau", userLogin,
                 "5", aujourdhui);
     }
 
@@ -45,8 +48,8 @@ public class SimpleUserFicheService implements UserFicheService
         return userFiche;
     }
 
-    public List<UserFiche> searchUserFiche(String[] keywords)
-    {
+    @Override
+    public List<UserFiche> searchUserFiche(String[] keywords) {
         List<UserFiche> matches = new ArrayList<UserFiche>();
         if (keywords != null && keywords.length > 0)
         {
@@ -56,8 +59,8 @@ public class SimpleUserFicheService implements UserFicheService
                 for (String keyword : keywords)
                 {
                     keyword = keyword.toLowerCase();
-                    if (!(userFiche.getFirstName().toLowerCase().contains(keyword)
-                            || userFiche.getLastName().toLowerCase().contains(keyword)))
+                    if (!(userFiche.getSurname().toLowerCase().contains(keyword)
+                            || userFiche.getLastname().toLowerCase().contains(keyword)))
                     {
                         // keyword not found on userFiche
                         continue outer;
@@ -84,5 +87,4 @@ public class SimpleUserFicheService implements UserFicheService
         userFiches.put(updatedUserFiche.getId(),updatedUserFiche);
         return updatedUserFiche;
     }
-
 }

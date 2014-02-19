@@ -11,10 +11,10 @@
           fx:controller="controller.dossier.DossierController">
 
     <Label text="NOM" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
-    <TextField fx:id="name" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+    <TextField fx:id="surname" GridPane.columnIndex="3" GridPane.rowIndex="5" />
 
     <Label text="PRENOM" GridPane.columnIndex="2" GridPane.rowIndex="6"/>
-    <TextField fx:id="surname" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+    <TextField fx:id="lastname" GridPane.columnIndex="3" GridPane.rowIndex="6" />
 
     <Label text="DATE DE NAISSANCE" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
     <TextField fx:id="birthday" GridPane.columnIndex="3" GridPane.rowIndex="7" />
