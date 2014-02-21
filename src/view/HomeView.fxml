@@ -11,7 +11,7 @@
 
 <BorderPane id="BorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="463.0" prefWidth="665.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
   <center>
-    <TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+    <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
       <tabs>
         <Tab styleClass="tab-header-background" text="ACCEUIL">
             <graphic>
@@ -22,7 +22,7 @@
                 </ImageView>
             </graphic>
           <content>
-            <BorderPane  prefHeight="200.0" prefWidth="200.0">
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
               <center>
                 <TableView prefHeight="200.0" prefWidth="200.0">
                   <columns>
