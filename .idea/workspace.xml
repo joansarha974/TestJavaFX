@@ -6,122 +6,96 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="mise en place cfg hibernate et hbm.xml&#10;pb dans le mapping&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/1.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/util/HibernateUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/dialect/SQLiteDialect.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/test-classes/test/TestSaveUser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/model/User.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/ant-1.7.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/antlr-2.7.7.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/asm-attrs.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/asm.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/byteman-2.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/byteman-bmunit-2.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/c3p0-0.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/c3p0/c3p0-0.9.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/cdi-api-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/cglib-2.1.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/classmate-0.5.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/classmate-0.9.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/commons-logging-1.0.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/dom4j-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/ehcache-1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/ehcache/ehcache-core-2.4.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/c3p0/hibernate-c3p0-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-4.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/hibernate-commons-annotations-4.0.4.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-core-4.2.6.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/hibernate-core-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/ehcache/hibernate-ehcache-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jpa/hibernate-entitymanager-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/envers/hibernate-envers-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/hibernate-infinispan-4.3.1.Final-tests.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/hibernate-infinispan-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jpa-metamodel-generator/hibernate-jpamodelgen-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/osgi/hibernate-osgi-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/proxool/hibernate-proxool-4.3.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-validator-5.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/hibernate3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/infinispan-commons-6.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/infinispan-core-6.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jandex-1.0.3.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/jandex-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.12.1.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/javassist-3.18.1-GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-javaee-5.2.0.Beta1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-logging-3.1.0.CR2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/jboss-logging-3.1.3.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/jboss-logging-annotations-1.2.0.Beta1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/jboss-marshalling-1.3.18.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/jboss-marshalling-river-1.3.18.GA.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jbossjts-4.16.6.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/jgroups-3.4.1.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/jta.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.11.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/junit-4.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/log4j-1.2.9.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/c3p0/mchange-commons-java-0.2.3.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mockito-all-1.9.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.3-rc-bin.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/org.apache.karaf.shell.console-2.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/osgi/org.osgi.compendium-4.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/osgi/org.osgi.core-4.3.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/proxool/proxool-0.8.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/infinispan/rhq-pluginAnnotations-3.0.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/optional/ehcache/slf4j-api-1.6.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/sqlite-jdbc-3.6.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/sqlite-jdbc-3.7.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/validation-api-1.1.0.Final.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/xml-apis.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/AddFolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/DeleteAllFolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/FolderService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/FolderServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/util/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/LoginService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/service/LoginServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/test/java/test/TestSaveUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/command/UpdateFolder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hibernate.properties.template" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_karaf_shell_console_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/service/AddToDB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/service/UserFicheService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/service/UserFicheServiceImpl.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/controller/dossier/DossierController.java" afterPath="$PROJECT_DIR$/src/controller/dossier/FolderController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/Gender.java" afterPath="$PROJECT_DIR$/src/entity/Gender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/Sujet.java" afterPath="$PROJECT_DIR$/src/entity/Sujet.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/UserFiche.java" afterPath="$PROJECT_DIR$/src/entity/Folder.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/model/UserLogin.java" afterPath="$PROJECT_DIR$/src/entity/Login.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/view/DossierView.fxml" afterPath="$PROJECT_DIR$/src/view/FolderView.fxml" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="hibernate intégrer mais ne fonctionne pas / garder cette base pour prochaine tentative /&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/images/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/images/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/view/HomeView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/.classpath" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/1.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/asm-attrs.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/asm.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/c3p0-0.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/cglib-2.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/commons-logging-1.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/ehcache-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/hibernate3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/jta.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/junit-4.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/log4j-1.2.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/sqlite-jdbc-3.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/dialect/SQLiteDialect.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/model/User.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/util/HibernateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/User.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/src/test/java/test/TestSaveUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/User.hbm.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/dialect/SQLiteDialect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/model/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/classes/util/HibernateUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/target/test-classes/test/TestSaveUser.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/HibernateSQLite/xml-apis.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/envers/hibernate-envers-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-4.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hibernate-core-4.2.6.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/hibernate-validator-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jpa-metamodel-generator/hibernate-jpamodelgen-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jpa/hibernate-entitymanager-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/c3p0/c3p0-0.9.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/c3p0/hibernate-c3p0-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/c3p0/mchange-commons-java-0.2.3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/ehcache/ehcache-core-2.4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/ehcache/hibernate-ehcache-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/ehcache/slf4j-api-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/hibernate-infinispan-4.3.1.Final-tests.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/hibernate-infinispan-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/infinispan-commons-6.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/infinispan-core-6.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/jboss-marshalling-1.3.18.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/jboss-marshalling-river-1.3.18.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/jboss-transaction-api_1.1_spec-1.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/jgroups-3.4.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/infinispan/rhq-pluginAnnotations-3.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/proxool/hibernate-proxool-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/optional/proxool/proxool-0.8.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/osgi/hibernate-osgi-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/osgi/org.osgi.compendium-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/osgi/org.osgi.core-4.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/hibernate-commons-annotations-4.0.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/hibernate-core-4.3.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/jandex-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/jboss-logging-3.1.3.GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/jboss-logging-annotations-1.2.0.Beta1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/required/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/HibernateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/resources/model.hbm.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database.db" afterPath="$PROJECT_DIR$/Database.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/view/css/Authentification.css" afterPath="$PROJECT_DIR$/src/view/css/Authentification.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Folder.java" afterPath="$PROJECT_DIR$/src/entity/Folder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/FolderServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/FolderServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/entity/Login.java" afterPath="$PROJECT_DIR$/src/entity/Login.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/controller/login/LoginController.java" afterPath="$PROJECT_DIR$/src/controller/login/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/service/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/service/LoginServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestJavaFX.iml" afterPath="$PROJECT_DIR$/TestJavaFX.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/model.hbm.xml" afterPath="$PROJECT_DIR$/src/resources/model.hbm.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -191,66 +165,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/controller/login/LoginController.java">
+      <file leaf-file-name="HomeView.fxml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/view/HomeView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="28" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.76666665" vertical-offset="345" max-vertical-offset="1200">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="21" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
+            <state line="26" column="64" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.6832298" vertical-offset="60" max-vertical-offset="2265">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.hbm.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/model.hbm.xml">
+      <file leaf-file-name="DatabaseView.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/DatabaseView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="690">
+            <state line="21" column="13" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/HibernateUtil.java">
+      <file leaf-file-name="Authentification.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/css/Authentification.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="510">
+            <state line="25" column="19" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/hibernate.cfg.xml">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1020">
+            <state line="11" column="71" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/LoginServiceImpl.java">
+      <file leaf-file-name="LoginView.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/LoginView.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="74" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1380">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FolderServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/FolderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="27" selection-start="2634" selection-end="2634" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1440">
+            <state line="21" column="44" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -269,15 +223,14 @@
         <option value="Joan Sahra Perny" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="SYNC_SETTING" value="DONT" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/model/User.java" />
-        <option value="$PROJECT_DIR$/src/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/model/UserFicheService.java" />
-        <option value="$PROJECT_DIR$/src/model/Gender.java" />
         <option value="$PROJECT_DIR$/src/model/SimpleUserFicheService.java" />
         <option value="$PROJECT_DIR$/src/view/Login.fxml" />
         <option value="$PROJECT_DIR$/src/controller/login/Login.java" />
@@ -303,7 +256,6 @@
         <option value="$PROJECT_DIR$/src/view/LoginView.fxml" />
         <option value="$PROJECT_DIR$/src/controller/login/LoginControllerTest.java" />
         <option value="$PROJECT_DIR$/src/service/AddToDB.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/resources/pom.xml" />
         <option value="$PROJECT_DIR$/src/controller/dossier/AddFolder.java" />
         <option value="$PROJECT_DIR$/src/service/DataService.java" />
@@ -315,25 +267,33 @@
         <option value="$PROJECT_DIR$/src/service/UserLoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/model/Folder.java" />
         <option value="$PROJECT_DIR$/src/command/AddFolder.java" />
-        <option value="$PROJECT_DIR$/TestJavaFX.iml" />
         <option value="$PROJECT_DIR$/src/command/DeleteAllFolder.java" />
-        <option value="$PROJECT_DIR$/src/entity/Folder.java" />
         <option value="$PROJECT_DIR$/src/command/UpdateFolder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/service/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/service/FolderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/resources/HibernateUtil.java" />
         <option value="$PROJECT_DIR$/src/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/TestJavaFX.iml" />
+        <option value="$PROJECT_DIR$/src/service/FolderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/service/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/entity/Folder.java" />
+        <option value="$PROJECT_DIR$/src/entity/Login.java" />
         <option value="$PROJECT_DIR$/src/controller/login/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/view/home.fxml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/view/css/Authentification.css" />
+        <option value="$PROJECT_DIR$/src/view/HomeView.fxml" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
+    <option name="x" value="80" />
     <option name="y" value="22" />
-    <option name="width" value="745" />
-    <option name="height" value="808" />
+    <option name="width" value="1360" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -386,7 +346,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -394,10 +353,6 @@
               <option name="myItemId" value="TestJavaFX" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -437,7 +392,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,52 +410,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestJavaFX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestJavaFX" />
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestJavaFX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestJavaFX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -517,11 +437,11 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37278107" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.5598377" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Database.db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -531,11 +451,11 @@
     <property name="SearchEverywhereHistory" value="@" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="controller.login" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/dialect" />
@@ -749,12 +669,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -772,6 +686,12 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
@@ -813,9 +733,9 @@
     <option name="LAST_MERGED_REVISION" />
     <option name="MERGE_DRY_RUN" value="false" />
     <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="true" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="true" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
@@ -835,7 +755,8 @@
       <workItem from="1392700828951" duration="18993000" />
       <workItem from="1392802863178" duration="1488000" />
       <workItem from="1392805251435" duration="59541000" />
-      <workItem from="1392959801642" duration="221000" />
+      <workItem from="1392959801642" duration="21849000" />
+      <workItem from="1393000922427" duration="6881000" />
     </task>
     <task id="LOCAL-00001" summary="Pas d'intégration d'hibernate effectué&#10;SimpleUserFicheService.java +add&#10;UserFiche.java +add&#10;UserFicheService.java +add&#10;Search.fxml +add (vide)&#10;Gender.java +add&#10;UserLogin.java +modified&#10;Sujets.java +modified&#10;">
       <created>1392660841692</created>
@@ -849,11 +770,15 @@
       <created>1392846376737</created>
       <updated>1392846376737</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hibernate intégrer mais ne fonctionne pas / garder cette base pour prochaine tentative /">
+      <created>1392960233022</created>
+      <updated>1392960233022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109428000" />
+    <option name="totallyTimeSpent" value="137937000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -876,42 +801,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="22" width="745" height="808" extended-state="0" />
+    <frame x="80" y="22" width="1360" height="791" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19220056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25208914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18431373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60584956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.13847305" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802936" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23680456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20194986" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24713376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27738264" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4247911" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15477997" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25249642" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21169916" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2367688" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23816156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29805014" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -921,11 +846,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19305556" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22479838" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -946,10 +871,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24821684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24821684" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
@@ -972,7 +897,9 @@
     <MESSAGE value="intégration hibernate&#10;mise en place de lien vers database.db sqlite&#10;manque génération des tables automatiques" />
     <MESSAGE value="mise en place cfg hibernate et hbm.xml&#10;pb dans le mapping" />
     <MESSAGE value="Gestion hibernate&#10;Ajout des commandes gérant la database&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gestion hibernate&#10;Ajout des commandes gérant la database&#10;" />
+    <MESSAGE value="hibernate intégrer mais ne fonctionne pas / garder cette base pour prochaine tentative /" />
+    <MESSAGE value="hibernate integrer mais ne fonctionne pas / garder cette base pour prochaine tentative /" />
+    <option name="LAST_COMMIT_MESSAGE" value="hibernate integrer mais ne fonctionne pas / garder cette base pour prochaine tentative /" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -994,16 +921,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/service/LoginServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/view/DatabaseView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="74" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1380">
+        <state line="21" column="13" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/FolderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/view/css/Authentification.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="27" selection-start="2634" selection-end="2634" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1440">
+        <state line="42" column="0" selection-start="0" selection-end="860" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="68" selection-start="337" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="1238" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
@@ -1021,18 +962,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfxrt.jar!/javafx/fxml/FXMLLoader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="493" column="0" selection-start="25537" selection-end="25537" vertical-scroll-proportion="0.86706054" vertical-offset="6808" max-vertical-offset="7485" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/DatabaseView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.46528804" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/required/hibernate-core-4.3.1.Final.jar!/org/hibernate/dialect/Dialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="61" selection-start="12835" selection-end="12835" vertical-scroll-proportion="0.35368958" vertical-offset="3881" max-vertical-offset="6705" />
       </provider>
     </entry>
     <entry file="uml://DATABASE/dba379e9-e5f7-4a4c-aa06-fd2c5ff930b0">
@@ -1053,118 +982,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="519" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="336" selection-end="336" vertical-scroll-proportion="0.22181146" vertical-offset="0" max-vertical-offset="541" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/test/java/test/TestSaveUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/test-classes/test/TestSaveUser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="509" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/dialect/SQLiteDialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/model/User.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/util/HibernateUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/HibernateSQLite/hibernate3.jar!/org/hibernate/dialect/Dialect.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="173" selection-end="173" vertical-scroll-proportion="-1.2081218" vertical-offset="551" max-vertical-offset="3450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/.classpath">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="855" selection-end="855" vertical-scroll-proportion="0.5208333" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/target/classes/User.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/util/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/java/dialect/SQLiteDialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="998" selection-end="998" vertical-scroll-proportion="0.95022625" vertical-offset="0" max-vertical-offset="2610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dialec/SQLiteDialect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="920" selection-end="920" vertical-scroll-proportion="0.7027027" vertical-offset="0" max-vertical-offset="2610" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/LoginView.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/dossier/FolderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="4" selection-start="255" selection-end="255" vertical-scroll-proportion="0.17391305" vertical-offset="0" max-vertical-offset="690" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Sujet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.10869565" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/hibernate.properties.template">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-17.674242" vertical-offset="6999" max-vertical-offset="7395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="141" max-vertical-offset="795" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfxrt.jar!/com/sun/glass/ui/View.class">
@@ -1174,44 +999,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/FolderView.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="628" selection-end="628" vertical-scroll-proportion="0.38054967" vertical-offset="60" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/HibernateSQLite/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="25" selection-start="226" selection-end="226" vertical-scroll-proportion="0.11627907" vertical-offset="0" max-vertical-offset="516" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/database/DatabaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="10" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="16" column="26" selection-start="628" selection-end="628" vertical-scroll-proportion="0.38054967" vertical-offset="60" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Gender.java">
+    <entry file="file://$PROJECT_DIR$/src/controller/database/DatabaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
+        <state line="19" column="10" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/entity/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="22" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="960" />
+    <entry file="dbDummy://dbtable:/a0619210/2ae64509-635b-46f2-a5af-aa140d02c494/..user_login">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100" />
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/DeleteAllFolder.java">
+    <entry file="file://$PROJECT_DIR$/src/dialec/SQLiteDialect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.22488755" vertical-offset="0" max-vertical-offset="667" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/UpdateFolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="11" selection-start="759" selection-end="759" vertical-scroll-proportion="0.63047284" vertical-offset="0" max-vertical-offset="571" />
+        <state line="26" column="49" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="2520" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestJavaFX.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="634" selection-end="634" vertical-scroll-proportion="0.4032258" vertical-offset="0" max-vertical-offset="1200" />
+        <state line="3" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/FolderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="735" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/FolderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/command/AddFolder.java">
@@ -1219,74 +1042,83 @@
         <state line="17" column="12" selection-start="452" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/FolderService.java">
+    <entry file="file://$PROJECT_DIR$/src/command/DeleteAllFolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="37" max-vertical-offset="480" />
+        <state line="10" column="12" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/UpdateFolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="11" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/entity/Folder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="8" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.39290988" vertical-offset="829" max-vertical-offset="1560" />
+        <state line="154" column="0" selection-start="2941" selection-end="2941" vertical-scroll-proportion="0.7452229" vertical-offset="984" max-vertical-offset="1455" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="82" selection-end="82" vertical-scroll-proportion="0.15495868" vertical-offset="0" max-vertical-offset="484" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="31" selection-start="540" selection-end="540" vertical-scroll-proportion="0.6838843" vertical-offset="29" max-vertical-offset="840" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/Sujet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="82" selection-end="82" vertical-scroll-proportion="0.147929" vertical-offset="0" max-vertical-offset="507" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.23913044" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/model.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/service/FolderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="27" selection-start="2634" selection-end="2634" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="11" column="25" selection-start="209" selection-end="209" vertical-scroll-proportion="0.20710059" vertical-offset="0" max-vertical-offset="507" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/service/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="74" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0" vertical-offset="874" max-vertical-offset="1380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="21" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1155">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/HibernateSQLite/hibernate3.jar!/org/hibernate/cfg/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="40" selection-start="5802" selection-end="5802" vertical-scroll-proportion="0.35152838" vertical-offset="1384" max-vertical-offset="3000" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1807" selection-end="1807" vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" vertical-offset="158" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="286" selection-end="286" vertical-scroll-proportion="-0.15384616" vertical-offset="228" max-vertical-offset="735" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/login/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="28" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.76666665" vertical-offset="345" max-vertical-offset="1200">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="156" column="24" selection-start="5473" selection-end="5473" vertical-scroll-proportion="2.9875777" vertical-offset="897" max-vertical-offset="2595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/DatabaseView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/LoginView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="71" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/css/Authentification.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="19" selection-start="572" selection-end="572" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1140">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/HomeView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="64" selection-start="1284" selection-end="1284" vertical-scroll-proportion="0.6832298" vertical-offset="60" max-vertical-offset="2265">
+          <folding />
         </state>
       </provider>
     </entry>

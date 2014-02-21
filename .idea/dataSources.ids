@@ -1,41 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="MySQL - lportal@localhost" uuid="f6fc0c7a-9606-45b3-8d59-64985bba982f">
-    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
-  </data-source>
   <data-source source="LOCAL" name="SQLite - Database.db" uuid="2ae64509-635b-46f2-a5af-aa140d02c494">
     <database-info product="SQLite" version="3.6.23.1" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="pure"/>
     <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
     <schema name="" catalog=""/>
-    <table name="Folder" schema="" catalog="" type="TABLE">
-      <column name="folderNumber" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="gender" sqlType="STRING" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
-      <column name="name" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="surname" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="birthdayDate" sqlType="DATE" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="address1" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="address2" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="district" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="postalCode" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="city" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="phone1" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="phone2" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="nationality" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="maritalStatus" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="birthCountry" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="firstEntryFranceDate" sqlType="STRING" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
-      <column name="professionalStatus" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="remarks" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="created" sqlType="DATETIME" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
-      <column name="lastModified" sqlType="DATETIME" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
-      <column name="id" sqlType="INT" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
-    </table>
-    <table name="userLogin" schema="" catalog="" type="TABLE">
-      <column name="id" sqlType="INT" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
-      <column name="username" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="password" sqlType="STRING" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="created" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
-      <column name="lastModified" sqlType="DATETIME" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+    <table name="user_login" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+      <column name="username" sqlType="VARCHAR(30)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="password" sqlType="VARCHAR(30)" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="created" sqlType="DATE" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="lastModified" sqlType="DATE" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
       <primary-key columns="id"/>
     </table>
   </data-source>

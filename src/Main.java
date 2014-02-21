@@ -8,7 +8,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("view/LoginView.fxml"));
+
+        Parent root = FXMLLoader.load(getClass().getResource("view/HomeView.fxml"));
         root.getStylesheets().add("view/css/Authentification.css");
         primaryStage.setTitle("PAPPU");
         primaryStage.setScene(new Scene(root, 300, 275));

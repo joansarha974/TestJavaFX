@@ -9,3 +9,63 @@
 .footer {
     -fx-font-size: 12px;
 }
+
+/* ----------------------------- */
+/*  Tabs  background graphic     */
+/* ----------------------------- */
+.tab-header-background {
+   /* -fx-background-image: url("images/home.jpg");*/
+    -fx-background-color:#f2f2f2
+}
+.tab-header-background:hover {
+    /*-fx-background-image: url("images/home.jpg");*/
+    -fx-background-color:#558ed5
+}
+.tab-header-background1 {
+    /*-fx-background-image: url("images/home.jpg");*/
+    -fx-background-color:white
+}
+.tab-header-background1:hover {
+    /*-fx-background-image: url("images/home.jpg");*/
+    -fx-background-color:#c2d69a
+}
+.tab-header-background-menu1 {
+    -fx-background-color:#558ed5
+}
+.tab-header-background-menu2 {
+    -fx-background-color:#c2d69a
+}
+.tab-label {
+    -fx-content-display: right;
+}
+.tab-pane {
+    -fx-tab-min-height: 70;
+    -fx-tab-max-height: 70;
+}
+
+/* CSS Tab Header  */
+.blue .tab-label  {
+    -fx-text-fill: blue;
+}
+
+.red .tab-label  {
+    -fx-text-fill: red;
+}
+
+.green .tab-label {
+    -fx-text-fill: lime;
+}
+
+.tab-chat.tab:hover {
+    -fx-background-color:  linear-gradient(to top, -fx-purple, -fx-control-inner-background);
+}
+
+.tab-chat:selected {
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-base, 95%),     -fx-control-inner-background );
+    -fx-background-insets: 0, 9 9 0 9;
+    -fx-background-radius: 12 12 0 0, 12 12 0 0;
+    -fx-font-weight: bold;
+}
+
+
+/* CSS Tab Secondary */

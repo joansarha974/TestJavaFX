@@ -1,6 +1,5 @@
 package entity;
 
-import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -129,7 +128,6 @@ public class Folder implements Serializable{
         this.surname = surname;
     }
 
-    @Id
     public Long getId() {
         return id;
     }

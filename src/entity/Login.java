@@ -1,9 +1,6 @@
 package entity;
 
 
-import org.hibernate.annotations.GenericGenerator;
-
-import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -11,8 +8,7 @@ import java.util.Date;
  * Created by joanperny on 17/02/2014.
  */
 
-@Entity
-@Table(name = "LOGIN")
+
 public class Login implements Serializable {
 
     private String username;
@@ -26,15 +22,13 @@ public class Login implements Serializable {
     }
 
     public Login(Date created, Date lastModified, String username, String password) {
-        // for application use, to create new events
+        // for application use, to create new logins
         this.created = created;
         this.lastModified = lastModified;
         this.username = username;
         this.password = password;
     }
 
-    @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "LOGIN_LASTMODIFIED")
     public Date getLastModified() {
         return lastModified;
     }
@@ -43,8 +37,6 @@ public class Login implements Serializable {
         this.lastModified = lastModified;
     }
 
-    @Temporal(TemporalType.TIMESTAMP)
-    @Column(name = "LOGIN_CREATED")
     public Date getCreated() {
         return created;
     }
@@ -53,9 +45,6 @@ public class Login implements Serializable {
         this.created = created;
     }
 
-    @Id
-    @GeneratedValue(generator="increment")
-    @GenericGenerator(name="increment", strategy = "increment")
     public Long getId() {
         return id;
     }
