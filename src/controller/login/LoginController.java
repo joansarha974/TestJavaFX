@@ -1,36 +1,26 @@
 package controller.login;
-import javafx.fxml.FXMLLoader;
 
+import entity.Login;
 import javafx.event.ActionEvent;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-
-import java.sql.DriverManager;
-
 import javafx.stage.Stage;
-import model.UserLogin;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
-import  org.sqlite.JDBC;
+import resources.HibernateUtil;
 
-import java.awt.*;
-import java.io.IOException;
-import java.sql.*;
+import static resources.HibernateUtil.getSessionFactory;
+
 
 /**
  * Created by joanperny on 17/02/2014.
  */
 public class LoginController {
+
     public Label messageLabel;
     public TextField username;
     public PasswordField password;
     public Stage stage;
-
 
     public void onSignIn(ActionEvent actionEvent) {
         System.out.println("successfully saved");
@@ -39,46 +29,31 @@ public class LoginController {
             messageLabel.setText("Login is missing");
         }
         else {
-            System.out.println("successfully saved");
-            //getting values from form Login
-            //String user = username.getText();
-            //String pwd = password.getText();
+            // A SessionFactory is set up once for an application
+            //Configuration configuration = new Configuration();
+            //configuration.configure("resources/hibernate.cfg.xml");
+            //configuration.buildSessionFactory();
 
-            //create a database connection sqlite
-
-            messageLabel.setText("1");
+            Session session = getSessionFactory().getCurrentSession();
 
 
-            //creating configuration object
-            Configuration cfg=new Configuration();
-            messageLabel.setText("2");
-            cfg.configure("resources/hibernate.cfg.xml");//populates the data of the configuration file
-            messageLabel.setText("3");
-            //creating session factory object
-            SessionFactory factory=cfg.buildSessionFactory();
-            messageLabel.setText("4");
-            //creating session object
-            Session session=factory.openSession();
-            messageLabel.setText("5");
-            //creating transaction object
-            Transaction t=session.beginTransaction();
-            messageLabel.setText("6");
-            UserLogin e1;
-            messageLabel.setText("7");
-            e1 = new UserLogin();
-            messageLabel.setText("8");
-            e1.setId(115);
-            e1.setUsername("admin");
-            e1.setPassword("admin");
-            messageLabel.setText("9");
-            session.persist(e1);//persisting the object
-            messageLabel.setText("10");
-            t.commit();//transaction is commited
-            messageLabel.setText("11");
-            session.close();
-            messageLabel.setText("12");
 
+            // create a couple of events...
 
+            session.beginTransaction();
+            session.save(new Login(new java.util.Date(), new java.util.Date(), "admin", "admin"));
+            session.save(new Login(new java.util.Date(), new java.util.Date(), "user", "user"));
+            session.getTransaction().commit();
+            getSessionFactory().close();
+
+            // now lets pull events from the database and list them
+            session.beginTransaction();
+            java.util.List result = session.createQuery( "from LOGIN " ).list();
+            for ( Login userLogin : (java.util.List<Login>) result ) {
+                System.out.println( "UserLogin (" + (userLogin.getCreated()) + ") : " + userLogin.getUsername() );
+            }
+            session.getTransaction().commit();
+            getSessionFactory().close();
         }
     }
 

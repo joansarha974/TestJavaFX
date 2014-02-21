@@ -4,7 +4,7 @@
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="resources">
-    <class name="model.UserLogin" table="userLogin">
+    <class name="entity.UserLogin" table="userLogin">
         <id name="id" column="id" type="java.lang.Long">
             <generator class="native"></generator>
         </id>
@@ -13,7 +13,7 @@
         <property name="created" column="created" type="java.util.Date"/>
         <property name="lastModified" column="lastModified" type="java.util.Date"/>
     </class>
-    <class name="model.UserFiche" table="Folder">
+    <class name="entity.Folder" table="Folder">
         <id name="id" column="id" type="java.lang.Long">
             <generator class="native"></generator>
         </id>

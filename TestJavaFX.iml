@@ -4,13 +4,9 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="lib:HibernateSQLite:src:main:resources:hibernate.cfg.xml" value="6ecba077-a759-4700-87be-e4498293f38f" />
-          <unit-entry name="lib:HibernateSQLite:target:classes:hibernate.cfg.xml" value="5ea89ca3-7722-44ef-87d5-af2fc9e2ea50" />
           <unit-entry name="resources:hibernate.cfg.xml" value="dba379e9-e5f7-4a4c-aa06-fd2c5ff930b0" />
         </datasource-map>
         <naming-strategy-map />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/lib/HibernateSQLite/src/main/resources/hibernate.cfg.xml" />
-        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/lib/HibernateSQLite/target/classes/hibernate.cfg.xml" />
         <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/resources/hibernate.cfg.xml" />
       </configuration>
     </facet>
@@ -72,6 +68,7 @@
     <orderEntry type="library" name="hibernate-jpa-2.1-api-1.0.0.Final" level="project" />
     <orderEntry type="library" name="javassist-3.18.1-GA" level="project" />
     <orderEntry type="library" name="hibernate-core-4.2.6.Final" level="project" />
+    <orderEntry type="library" name="org.apache.karaf.shell.console-2.3.3" level="project" />
   </component>
 </module>
 

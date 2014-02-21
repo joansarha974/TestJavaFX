@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
+          xmlns:fx="http://javafx.com/fxml/1"
+          xmlns="http://javafx.com/javafx/2.2"
+          fx:controller="controller.dossier.FolderController">
+
+    <Label text="NOM" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
+    <TextField fx:id="surname" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+
+    <Label text="PRENOM" GridPane.columnIndex="2" GridPane.rowIndex="6"/>
+    <TextField fx:id="lastname" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+
+    <Label text="DATE DE NAISSANCE" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
+    <TextField fx:id="birthday" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+
+    <Label text="No DOSSIER" GridPane.columnIndex="2" GridPane.rowIndex="8"/>
+    <TextField fx:id="noDossier" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+
+    <Label text="TEL" GridPane.columnIndex="2" GridPane.rowIndex="9"/>
+    <TextField fx:id="phone" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+
+    <Label text="PORTABLE" GridPane.columnIndex="2" GridPane.rowIndex="10"/>
+    <TextField fx:id="phone2" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+
+    <Label text="Acceuilli par" GridPane.columnIndex="5" GridPane.rowIndex="5"/>
+    <TextField fx:id="acceuilli_by" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+
+    <Label text="Date" GridPane.columnIndex="5" GridPane.rowIndex="6"/>
+    <TextField fx:id="date" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+
+    <Label text="Lieu" GridPane.columnIndex="5" GridPane.rowIndex="7"/>
+    <TextField fx:id="lieu" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+
+    <Label text="Ajouter un sujet" GridPane.columnIndex="5" GridPane.rowIndex="8"/>
+    <TextField fx:id="addSujet" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+    <Button onAction="#onAddDossier" text="Ajouter" GridPane.columnIndex="7" GridPane.rowIndex="8"/>
+
+    <Label text="Sujet traité" GridPane.columnIndex="5" GridPane.rowIndex="9"/>
+    <ListView fx:id="listViewSujet" GridPane.columnIndex="6" GridPane.rowIndex="9"/>
+
+    <Label text="Remarques" GridPane.columnIndex="2" GridPane.rowIndex="11"/>
+    <Text fx:id="remarques" GridPane.columnSpan="2" GridPane.columnIndex="6" GridPane.rowIndex="11"/>
+</GridPane>

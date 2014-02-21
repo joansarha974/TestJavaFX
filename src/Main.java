@@ -10,7 +10,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("view/LoginView.fxml"));
         root.getStylesheets().add("view/css/Authentification.css");
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("PAPPU");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
     }
