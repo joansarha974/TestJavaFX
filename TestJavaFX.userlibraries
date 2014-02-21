@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="hibernate-envers-4.3.1.Final" />
+  <library name="ant-1.7.0">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/ant-1.7.0.jar" />
+  </library>
+  <library name="cglib-2.1.3" />
+  <library name="jboss-marshalling-1.3.18.GA" />
+  <library name="cdi-api-1.1">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/cdi-api-1.1.jar" />
+  </library>
+  <library name="log4j-1.2.9" />
+  <library name="infinispan-commons-6.0.0.Final" />
+  <library name="slf4j-api-1.6.1" />
+  <library name="classmate-0.9.0">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/classmate-0.9.0.jar" />
+  </library>
+  <library name="hibernate-infinispan-4.3.1.Final" />
+  <library name="org.apache.karaf.shell.console-2.3.3">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/org.apache.karaf.shell.console-2.3.3.jar" />
+  </library>
+  <library name="org.osgi.compendium-4.3.1" />
+  <library name="jandex-1.1.0.Final" />
+  <library name="infinispan-core-6.0.0.Final" />
+  <library name="sqlite-jdbc-3.7.2">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/sqlite-jdbc-3.7.2.jar" />
+  </library>
+  <library name="hibernate-commons-annotations-4.0.4.Final" />
+  <library name="hibernate-core-4.2.6.Final" />
+  <library name="hibernate-osgi-4.3.1.Final" />
+  <library name="proxool-0.8.3" />
+  <library name="byteman-2.1.3">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/byteman-2.1.3.jar" />
+  </library>
+  <library name="jboss-logging-3.1.3.GA" />
+  <library name="commons-collections-3.2.1">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/commons-collections-3.2.1.jar" />
+  </library>
+  <library name="dom4j-1.6.11">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/dom4j-1.6.1.jar" />
+  </library>
+  <library name="byteman-bmunit-2.1.3">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/byteman-bmunit-2.1.3.jar" />
+  </library>
+  <library name="rhq-pluginAnnotations-3.0.41" />
+  <library name="hibernate3" />
+  <library name="mysql-connector-java-5.1.3-rc-bin">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/mysql-connector-java-5.1.3-rc-bin.jar" />
+  </library>
+  <library name="jboss-transaction-api_1.1_spec-1.0.1.Final" />
+  <library name="jboss-javaee-5.2.0.Beta1">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/jboss-javaee-5.2.0.Beta1.jar" />
+  </library>
+  <library name="asm-attrs" />
+  <library name="ehcache-core-2.4.3" />
+  <library name="asm" />
+  <library name="jta" />
+  <library name="jgroups-3.4.1.Final" />
+  <library name="jboss-transaction-api_1.2_spec-1.0.0.Final" />
+  <library name="hibernate-validator-5.0.1.Final" />
+  <library name="jboss-marshalling-river-1.3.18.GA" />
+  <library name="hibernate-c3p0-4.3.1.Final" />
+  <library name="hibernate-proxool-4.3.1.Final" />
+  <library name="mchange-commons-java-0.2.3.4" />
+  <library name="hibernate-ehcache-4.3.1.Final" />
+  <library name="antlr-2.7.7">
+    <archive path="/Users/joanperny/Documents/Outils Informatique/JAVA/TestJavaFX/lib/antlr-2.7.7.jar" />
+  </library>
+  <library name="ehcache-1.1" />
+  <library name="junit-4.4" />
+  <library name="hibernate-jpa-2.1-api-1.0.0.Final" />
+  <library name="javassist-3.18.1-GA" />
+  <library name="commons-logging-1.0.4" />
+  <library name="c3p0-0.9.2.1" />
+  <library name="jboss-logging-annotations-1.2.0.Beta1" />
+  <library name="xml-apis" />
+  <library name="org.osgi.core-4.3.1" />
+</eclipse-userlibraries>
+
