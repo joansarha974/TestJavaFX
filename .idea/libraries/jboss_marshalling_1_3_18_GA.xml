@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jboss-marshalling-1.3.18.GA">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/optional/infinispan/jboss-marshalling-1.3.18.GA.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
