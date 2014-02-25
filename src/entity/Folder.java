@@ -1,132 +1,35 @@
 package entity;
 
-import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by joanperny on 17/02/2014.
  */
-public class Folder implements Serializable{
+public class Folder{
 
-    private Gender gender;
     private Long id;
+    private Gender gender;
+    private String folderNumber;
+    private String name;
     private String surname;
-    private String lastname;
-    private Date birthday;
-    private Integer numero;
-    private String phone;
+    private Date birthdayDate;
+    private String address1;
+    private String address2;
+    private String district;
+    private String postalCode;
+    private String city;
+    private String phone1;
     private String phone2;
-    private Login by_user_login;
-    private Date date;
-    private String lieu;
-    private Sujet sujets;
-    private String remarque;
+    private String nationality;
+    private String birthCountry;
+    private Date firstEntryFranceDate;
+    private String maritalStatus;
+    private String professionalStatus;
+    private String remarks;
     private Date created;
     private Date lastModified;
-
-    public Date getLastModified() {
-        return lastModified;
-    }
-
-    public void setLastModified(Date lastModified) {
-        this.lastModified = lastModified;
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    public void setCreated(Date created) {
-        this.created = created;
-    }
-
-    public String getRemarque() {
-        return remarque;
-    }
-
-    public void setRemarque(String remarque) {
-        this.remarque = remarque;
-    }
-
-    public Sujet getSujets() {
-        return sujets;
-    }
-
-    public void setSujets(Sujet sujets) {
-        this.sujets = sujets;
-    }
-
-    public String getLieu() {
-        return lieu;
-    }
-
-    public void setLieu(String lieu) {
-        this.lieu = lieu;
-    }
-
-    public Date getDate() {
-        return date;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
-    }
-
-    public Login getBy_user_login() {
-        return by_user_login;
-    }
-
-    public void setBy_user_login(Login by_user_login) {
-        this.by_user_login = by_user_login;
-    }
-
-    public String getPhone2() {
-        return phone2;
-    }
-
-    public void setPhone2(String phone2) {
-        this.phone2 = phone2;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public Integer getNumero() {
-        return numero;
-    }
-
-    public void setNumero(Integer numero) {
-        this.numero = numero;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
+    private List<Visit> visits;
 
     public Long getId() {
         return id;
@@ -144,15 +47,163 @@ public class Folder implements Serializable{
         this.gender = gender;
     }
 
-    public Folder() {
-
+    public String getFolderNumber() {
+        return folderNumber;
     }
 
-    public Folder(long l, Gender gender, String user1, String useruser,        Login userLogin, String noDossier, Date aujourdhui) {
-        this.id = l;
+    public void setFolderNumber(String folderNumber) {
+        this.folderNumber = folderNumber;
     }
 
-    public void put(Long id, Folder userFiche) {
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public Date getBirthdayDate() {
+        return birthdayDate;
+    }
+
+    public void setBirthdayDate(Date birthdayDate) {
+        this.birthdayDate = birthdayDate;
+    }
+
+    public String getAddress1() {
+        return address1;
+    }
+
+    public void setAddress1(String address1) {
+        this.address1 = address1;
+    }
+
+    public String getAddress2() {
+        return address2;
+    }
+
+    public void setAddress2(String address2) {
+        this.address2 = address2;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
+    public void setDistrict(String district) {
+        this.district = district;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getPhone1() {
+        return phone1;
+    }
+
+    public void setPhone1(String phone1) {
+        this.phone1 = phone1;
+    }
+
+    public String getPhone2() {
+        return phone2;
+    }
+
+    public void setPhone2(String phone2) {
+        this.phone2 = phone2;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public String getBirthCountry() {
+        return birthCountry;
+    }
+
+    public void setBirthCountry(String birthCountry) {
+        this.birthCountry = birthCountry;
+    }
+
+    public Date getFirstEntryFranceDate() {
+        return firstEntryFranceDate;
+    }
+
+    public void setFirstEntryFranceDate(Date firstEntryFranceDate) {
+        this.firstEntryFranceDate = firstEntryFranceDate;
+    }
+
+    public String getMaritalStatus() {
+        return maritalStatus;
+    }
+
+    public void setMaritalStatus(String maritalStatus) {
+        this.maritalStatus = maritalStatus;
+    }
+
+    public String getProfessionalStatus() {
+        return professionalStatus;
+    }
+
+    public void setProfessionalStatus(String professionalStatus) {
+        this.professionalStatus = professionalStatus;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public Date getCreated() {
+        return created;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
+
+    public Date getLastModified() {
+        return lastModified;
+    }
+
+    public void setLastModified(Date lastModified) {
+        this.lastModified = lastModified;
+    }
+
+    public List<Visit> getVisits() {
+        return visits;
+    }
+
+    public void setVisits(List<Visit> visits) {
+        this.visits = visits;
     }
 }

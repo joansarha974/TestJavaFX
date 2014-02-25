@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.GridPane?>
 
 <AnchorPane prefHeight="242.265625" prefWidth="364.0" xmlns:fx="http://javafx.com/fxml/1"
-            xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.database.DatabaseController">
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.DatabaseController">
     <Label layoutX="123.0" layoutY="8.0" text="Créer votre base de donnée" />
     <TextField fx:id="dbname" layoutX="118.0" layoutY="55.0" promptText="name database" text="Name" />
     <Button layoutX="118.0" layoutY="131.0" onAction="#onSignCreate()" text="Create" />

@@ -1,4 +1,4 @@
-package controller.database;
+package controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.TextField;

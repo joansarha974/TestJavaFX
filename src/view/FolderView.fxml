@@ -8,7 +8,7 @@
 <GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
           xmlns:fx="http://javafx.com/fxml/1"
           xmlns="http://javafx.com/javafx/2.2"
-          fx:controller="controller.dossier.FolderController">
+          fx:controller="controller.FolderController">
 
     <Label text="NOM" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
     <TextField fx:id="surname" GridPane.columnIndex="3" GridPane.rowIndex="5" />

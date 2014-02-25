@@ -1,4 +1,4 @@
-package controller.login;
+package controller;
 
 import entity.Login;
 import javafx.event.ActionEvent;

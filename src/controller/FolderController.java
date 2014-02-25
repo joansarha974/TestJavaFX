@@ -1,4 +1,4 @@
-package controller.dossier;
+package controller;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.ListView;

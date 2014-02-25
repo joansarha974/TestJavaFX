@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.GridPane?>
 
-<AnchorPane prefHeight="242.265625" prefWidth="364.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.login.LoginController">
+<AnchorPane prefHeight="242.265625" prefWidth="364.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.LoginController">
   <Label layoutX="123.0" layoutY="8.0" style="-fx-font-size: 24px" text="Bienvenue" />
   <Label layoutX="10.0" layoutY="58.0" text="Authentification:" />
   <TextField fx:id="username" layoutX="118.0" layoutY="55.0" promptText="username" text="" />

@@ -1,4 +1,4 @@
-package controller.dossier;
+package controller;
 
 /**
  * Created by joanperny on 17/02/2014.
