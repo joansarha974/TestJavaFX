@@ -1,5 +1,7 @@
 import entity.Folder;
 import javafx.application.Application;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
@@ -17,6 +19,9 @@ public class Main extends Application {
         //primaryStage.show();
 
         //Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        final ObservableList<Folder> items = FXCollections.<Folder> observableArrayList();
+
+
         primaryStage.setTitle("Poppu");
         Group root = new Group();
         Scene scene = new Scene(root, 1980, 760, Color.AZURE);
