@@ -11,6 +11,8 @@ public class Place {
     private String name;
     private List<Visit> visits;
 
+    public Place() {}
+
     public Long getId() {
         return id;
     }

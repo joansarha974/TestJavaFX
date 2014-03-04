@@ -13,6 +13,8 @@ public class Subject_ {
     private List<Action_> actions;
     private Visit visit;
 
+    public Subject_() {}
+
     public Long getId() {
         return id;
     }

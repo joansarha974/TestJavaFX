@@ -11,6 +11,8 @@ public class VisitType {
     private String name;
     private List<Visit> visits;
 
+    public VisitType() {}
+
     public Long getId() {
         return id;
     }

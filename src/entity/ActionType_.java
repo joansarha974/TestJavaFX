@@ -11,6 +11,8 @@ public class ActionType_ {
     private String name;
     private List<Action_> actions;
 
+    public ActionType_() {}
+
     public Long getId() {
         return id;
     }

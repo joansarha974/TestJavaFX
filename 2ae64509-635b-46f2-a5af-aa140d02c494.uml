@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>2ae64509-635b-46f2-a5af-aa140d02c494</OriginalElement>
+  <nodes>
+    <node x="1327.2658730158728" y="584.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:folder_visit</node>
+    <node x="987.265873015873" y="584.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:place_visit</node>
+    <node x="1527.2658730158728" y="584.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType</node>
+    <node x="0.0" y="763.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic_subject</node>
+    <node x="1349.9632936507937" y="730.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:action</node>
+    <node x="1506.7658730158728" y="920.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType_action</node>
+    <node x="366.17757936507945" y="920.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:subject_action</node>
+    <node x="1052.765873015873" y="209.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:place</node>
+    <node x="238.0" y="1038.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:sqlite_sequence</node>
+    <node x="1205.7658730158728" y="0.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:folder</node>
+    <node x="776.6299603174602" y="763.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:visit_subject</node>
+    <node x="463.5773809523809" y="584.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:visiteType_visit</node>
+    <node x="766.7132936507935" y="154.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:visit</node>
+    <node x="693.577380952381" y="584.5">2ae64509-635b-46f2-a5af-aa140d02c494.table:user_visit</node>
+    <node x="373.71329365079356" y="209.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:visiteType</node>
+    <node x="573.7132936507935" y="187.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:user</node>
+    <node x="270.57738095238085" y="562.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:subject</node>
+    <node x="0.0" y="1038.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:user_login</node>
+    <node x="94.15079365079362" y="209.0">2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:folder_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="-45.0" y="-36.5" />
+      <point x="1372.2658730158728" y="522.0" />
+      <point x="980.296626984127" y="522.0" />
+      <point x="97.08333333333337" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType_action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType">
+      <point x="53.75" y="-36.5" />
+      <point x="1668.0158730158728" y="895.0" />
+      <point x="1619.2658730158728" y="895.0" />
+      <point x="1619.2658730158728" y="710.0" />
+      <point x="1627.0158730158728" y="710.0" />
+      <point x="33.25" y="37.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:user_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="42.5" y="-36.5" />
+      <point x="821.077380952381" y="542.0" />
+      <point x="863.796626984127" y="542.0" />
+      <point x="-19.41666666666663" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic_subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject">
+      <point x="55.25" y="-36.5" />
+      <point x="165.75" y="700.0" />
+      <point x="292.20238095238085" y="700.0" />
+      <point x="-64.875" y="59.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic_subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic">
+      <point x="-55.25" y="-36.5" />
+      <point x="55.25" y="542.0" />
+      <point x="127.40079365079362" y="542.0" />
+      <point x="-33.25" y="37.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic">
+      <point x="-43.25" y="-59.0" />
+      <point x="313.82738095238085" y="542.0" />
+      <point x="193.90079365079362" y="542.0" />
+      <point x="33.25" y="37.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject_action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:action">
+      <point x="47.25" y="-36.5" />
+      <point x="507.92757936507945" y="895.0" />
+      <point x="1398.2132936507937" y="895.0" />
+      <point x="-48.25" y="70.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:folder_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:folder">
+      <point x="45.0" y="-36.5" />
+      <point x="0.0" y="246.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:user_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:user">
+      <point x="-42.5" y="-36.5" />
+      <point x="736.077380952381" y="512.0" />
+      <point x="660.2132936507935" y="512.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:visiteType_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="52.5" y="-36.5" />
+      <point x="621.077380952381" y="532.0" />
+      <point x="824.9632936507935" y="532.0" />
+      <point x="-58.25" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="43.25" y="-59.0" />
+      <point x="400.32738095238085" y="522.0" />
+      <point x="786.1299603174602" y="522.0" />
+      <point x="-97.08333333333337" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:place_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="-44.0" y="-36.5" />
+      <point x="1031.265873015873" y="532.0" />
+      <point x="941.4632936507935" y="532.0" />
+      <point x="58.25" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit_subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit">
+      <point x="42.0" y="-36.5" />
+      <point x="902.6299603174602" y="710.0" />
+      <point x="956.2242063492063" y="710.0" />
+      <point x="956.2242063492063" y="542.0" />
+      <point x="902.6299603174602" y="542.0" />
+      <point x="19.41666666666663" y="92.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:visiteType_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:visiteType">
+      <point x="-52.5" y="-36.5" />
+      <point x="516.077380952381" y="512.0" />
+      <point x="440.21329365079356" y="512.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:visit_subject" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject">
+      <point x="-42.0" y="-36.5" />
+      <point x="818.6299603174602" y="710.0" />
+      <point x="378.70238095238085" y="710.0" />
+      <point x="21.625" y="59.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType">
+      <point x="48.25" y="-70.0" />
+      <point x="1494.7132936507937" y="710.0" />
+      <point x="1560.5158730158728" y="710.0" />
+      <point x="-33.25" y="37.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject_action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject">
+      <point x="-47.25" y="-36.5" />
+      <point x="413.42757936507945" y="895.0" />
+      <point x="259.5882936507936" y="895.0" />
+      <point x="259.5882936507936" y="710.0" />
+      <point x="335.45238095238085" y="710.0" />
+      <point x="-21.625" y="59.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:actionType_action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:action">
+      <point x="-53.75" y="-36.5" />
+      <point x="1560.5158730158728" y="895.0" />
+      <point x="1494.7132936507937" y="895.0" />
+      <point x="48.25" y="70.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:action" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:subject">
+      <point x="-48.25" y="-70.0" />
+      <point x="1398.2132936507937" y="700.0" />
+      <point x="421.95238095238085" y="700.0" />
+      <point x="64.875" y="59.0" />
+    </edge>
+    <edge source="2ae64509-635b-46f2-a5af-aa140d02c494.table:place_visit" target="2ae64509-635b-46f2-a5af-aa140d02c494.table:place">
+      <point x="44.0" y="-36.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5575959933222037" x="861.0" y="589.0" />
+  <SelectedNodes>
+    <node>2ae64509-635b-46f2-a5af-aa140d02c494.table:problematic</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+

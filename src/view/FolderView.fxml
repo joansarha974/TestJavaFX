@@ -1,49 +1,160 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import java.lang.String?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
 
-<?import javafx.scene.text.Text?>
-<GridPane alignment="CENTER" hgap="10.0" vgap="10.0"
-          xmlns:fx="http://javafx.com/fxml/1"
-          xmlns="http://javafx.com/javafx/2.2"
-          fx:controller="controller.FolderController">
-
-    <Label text="NOM" GridPane.columnIndex="2" GridPane.rowIndex="5"/>
-    <TextField fx:id="surname" GridPane.columnIndex="3" GridPane.rowIndex="5" />
-
-    <Label text="PRENOM" GridPane.columnIndex="2" GridPane.rowIndex="6"/>
-    <TextField fx:id="lastname" GridPane.columnIndex="3" GridPane.rowIndex="6" />
-
-    <Label text="DATE DE NAISSANCE" GridPane.columnIndex="2" GridPane.rowIndex="7"/>
-    <TextField fx:id="birthday" GridPane.columnIndex="3" GridPane.rowIndex="7" />
-
-    <Label text="No DOSSIER" GridPane.columnIndex="2" GridPane.rowIndex="8"/>
-    <TextField fx:id="noDossier" GridPane.columnIndex="3" GridPane.rowIndex="8" />
-
-    <Label text="TEL" GridPane.columnIndex="2" GridPane.rowIndex="9"/>
-    <TextField fx:id="phone" GridPane.columnIndex="3" GridPane.rowIndex="9" />
-
-    <Label text="PORTABLE" GridPane.columnIndex="2" GridPane.rowIndex="10"/>
-    <TextField fx:id="phone2" GridPane.columnIndex="3" GridPane.rowIndex="10" />
-
-    <Label text="Acceuilli par" GridPane.columnIndex="5" GridPane.rowIndex="5"/>
-    <TextField fx:id="acceuilli_by" GridPane.columnIndex="6" GridPane.rowIndex="5" />
-
-    <Label text="Date" GridPane.columnIndex="5" GridPane.rowIndex="6"/>
-    <TextField fx:id="date" GridPane.columnIndex="6" GridPane.rowIndex="6" />
-
-    <Label text="Lieu" GridPane.columnIndex="5" GridPane.rowIndex="7"/>
-    <TextField fx:id="lieu" GridPane.columnIndex="6" GridPane.rowIndex="7" />
-
-    <Label text="Ajouter un sujet" GridPane.columnIndex="5" GridPane.rowIndex="8"/>
-    <TextField fx:id="addSujet" GridPane.columnIndex="6" GridPane.rowIndex="8" />
-    <Button onAction="#onAddDossier" text="Ajouter" GridPane.columnIndex="7" GridPane.rowIndex="8"/>
-
-    <Label text="Sujet traité" GridPane.columnIndex="5" GridPane.rowIndex="9"/>
-    <ListView fx:id="listViewSujet" GridPane.columnIndex="6" GridPane.rowIndex="9"/>
-
-    <Label text="Remarques" GridPane.columnIndex="2" GridPane.rowIndex="11"/>
-    <Text fx:id="remarques" GridPane.columnSpan="2" GridPane.columnIndex="6" GridPane.rowIndex="11"/>
-</GridPane>
+<BorderPane fx:id="borderPane_folder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0" style=""
+            xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2"
+            fx:controller="controller.FolderController">
+  <bottom>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="10.0" stroke="BLACK" strokeType="INSIDE" width="1440.0" />
+  </bottom>
+  <center>
+    <ScrollPane prefHeight="760.0" prefWidth="200.0">
+      <content>
+        <AnchorPane id="content_folder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1500.0" prefWidth="-1.0" style="&#10;&#10;">
+          <children>
+            <Label text="NOM" AnchorPane.rightAnchor="691.0" AnchorPane.topAnchor="71.0" />
+            <Label text="PRENOM" AnchorPane.rightAnchor="482.0" AnchorPane.topAnchor="71.0" />
+            <Label text="DATE DE NAISSANCE" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="116.0">
+              <font>
+                <Font name="Arial" size="10.0" fx:id="x1" />
+              </font>
+            </Label>
+            <Label font="$x1" text="No DOSSIER" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="141.0" />
+            <Label font="$x1" text="TEL" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="166.0" />
+            <Label font="$x1" text="Envoyé par" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="241.0" />
+            <Button mnemonicParsing="false" onAction="#onAddFolder" text="Enregistrer" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="239.0" />
+            <Label font="$x1" text="QUARTIER" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="219.0" />
+            <Label font="$x1" text="ADRESSE 2" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="272.0" />
+            <Label font="$x1" text="ADRESSE 1" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="244.0" />
+            <Label font="$x1" text="1ère Entrée en France" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="116.0" />
+            <Label font="$x1" text="VILLE" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="297.0" />
+            <Label font="$x1" text="PORTABLE" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="193.0" />
+            <Label font="$x1" text="Pays de naissance" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="141.0" />
+            <Label font="$x1" text="Nationalité" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="166.0" />
+            <Label font="$x1" text="Situation matri" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="194.0" />
+            <Label font="$x1" text="Situation socio-prof" AnchorPane.rightAnchor="433.0" AnchorPane.topAnchor="219.0" />
+            <TextField fx:id="birthdayDate" prefWidth="127.0" text="date de naissance" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="111.0" />
+            <TextField fx:id="folderNumber" prefWidth="127.0" text="no dossier" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="136.0" />
+            <TextField fx:id="phone1" prefWidth="127.0" text="tel" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="161.0" />
+            <TextField fx:id="phone2" prefWidth="127.0" text="portable" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="189.0" />
+            <TextField fx:id="district" prefWidth="127.0" text="quartier" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="214.0" />
+            <TextField fx:id="address1" prefWidth="127.0" text="adresse 1" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="239.0" />
+            <TextField fx:id="surname" prefWidth="127.0" text="prénom" AnchorPane.rightAnchor="351.0" AnchorPane.topAnchor="68.0" />
+            <TextField fx:id="firstEntryFranceDate" prefWidth="127.0" text="1ère entrée en france" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="111.0" />
+            <TextField fx:id="address2" prefWidth="127.0" text="adresse 2" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="267.0" />
+            <TextField fx:id="city" prefWidth="127.0" text="ville" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="292.0" />
+            <TextField fx:id="nationality" prefWidth="127.0" text="nationalité" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="161.0" />
+            <TextField fx:id="birthCountry" prefWidth="127.0" text="pays de naissance" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="136.0" />
+            <TextField fx:id="name" prefWidth="127.0" text="nom" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="68.0" />
+            <TextField fx:id="maritalStatus" prefWidth="127.0" text="situation matri" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="188.0" />
+            <TextField fx:id="professionalStatus" prefWidth="127.0" text="situation socio" AnchorPane.rightAnchor="291.0" AnchorPane.topAnchor="214.0" />
+            <Label font="$x1" text="Remarques" AnchorPane.rightAnchor="109.0" AnchorPane.topAnchor="116.0" />
+            <TextArea fx:id="remarks" prefHeight="71.0" prefWidth="200.0" text="remarques&#10;" wrapText="true" AnchorPane.rightAnchor="35.0" AnchorPane.topAnchor="139.0" />
+            <Label font="$x1" text="CODE POSTAL" AnchorPane.rightAnchor="700.0" AnchorPane.topAnchor="324.0" />
+            <TextField fx:id="postalCode" prefWidth="127.0" text="code postal" AnchorPane.rightAnchor="561.0" AnchorPane.topAnchor="319.0" />
+            <SplitPane dividerPositions="0.864951768488746" focusTraversable="true" orientation="VERTICAL" prefHeight="313.0" prefWidth="826.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="394.0">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                  <children>
+                    <TableView fx:id="tableVisitID" prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                      <columns>
+                        <TableColumn prefWidth="53.0" text="Id" fx:id="tVisitID" />
+                        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" style="color:white" text="Date" fx:id="tVisitDate" />
+                        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" text="Remarks" fx:id="tVisitRemarks" />
+                        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" text="Subjects" fx:id="tVisitSubjects" />
+                        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" text="User by" fx:id="tVisitUser" />
+                        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="90.0" text="Place" fx:id="tVisitPlace" />
+                        <TableColumn prefWidth="90.0" text="Visite Type" fx:id="tVisitType" />
+                        <TableColumn prefWidth="90.0" text="Folder" fx:id="tVisitFolder" />
+                        <TableColumn prefWidth="75.0" text="Suppr Visite" />
+                        <TableColumn prefWidth="75.0" style="-fx-background-color:cornflowerblue" text="Ajouter un sujet traité" />
+                      </columns>
+                    </TableView>
+                  </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                  <children>
+                    <HBox id="HBox" alignment="CENTER" spacing="5.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="9.0">
+                      <children>
+                        <TextField fx:id="dateInpu" prefWidth="104.0" promptText="Date de visites" />
+                        <TextField prefWidth="57.0" promptText="Lieu" />
+                        <TextField prefWidth="91.0" promptText="Acceuili par" />
+                        <TextField prefWidth="113.0" promptText="Type d'entretien" />
+                        <TextField prefWidth="54.0" promptText="Statut" />
+                        <TextField prefWidth="127.0" promptText="Famille en France" />
+                        <TextField fx:id="remarkInpu" prefWidth="84.0" promptText="Remarques" />
+                        <Button fx:id="submit" mnemonicParsing="false" onAction="#onAddItem" text="Ajouter une visite" />
+                      </children>
+                    </HBox>
+                  </children>
+                </AnchorPane>
+              </items>
+            </SplitPane>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="CORNFLOWERBLUE" height="22.0" stroke="BLACK" strokeType="INSIDE" width="133.0" AnchorPane.rightAnchor="707.0" AnchorPane.topAnchor="366.0" />
+            <Text scaleX="1.4732139844358572" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visites" AnchorPane.rightAnchor="756.71" AnchorPane.topAnchor="370.23">
+              <font>
+                <Font name="Arial" size="13.0" />
+              </font>
+            </Text>
+            <Button mnemonicParsing="false" text="Ajouter une action à la visite en cours" AnchorPane.rightAnchor="579.0" AnchorPane.topAnchor="715.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="22.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" width="200.00009999999747" AnchorPane.rightAnchor="640.0" AnchorPane.topAnchor="750.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LES SUJETS TRAITES" AnchorPane.rightAnchor="674.05" AnchorPane.topAnchor="753.43" />
+            <AnchorPane prefHeight="266.0" prefWidth="824.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="820.0">
+              <children>
+                <TableView prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <columns>
+                    <TableColumn prefWidth="110.0" text="Visite en cours" />
+                    <TableColumn prefWidth="90.0" text="Sélectionner" />
+                    <TableColumn prefWidth="40.0" text="" />
+                    <TableColumn prefWidth="110.0" text="Problématique" />
+                    <TableColumn prefWidth="130.0" text="Réorientation vers" />
+                    <TableColumn prefWidth="90.0" text="Avancement" />
+                    <TableColumn prefWidth="90.0" text="Partenaires" />
+                    <TableColumn prefWidth="90.0" text="Suppr Sujet" />
+                    <TableColumn prefWidth="110.0" style="-fx-background-color:cornflowerblue" text="Ajouter une action" />
+                  </columns>
+                </TableView>
+              </children>
+            </AnchorPane>
+            <CheckBox mnemonicParsing="false" text="Sujet(s) en cours" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="714.0" AnchorPane.topAnchor="787.0" />
+            <CheckBox mnemonicParsing="false" text="Tous" AnchorPane.rightAnchor="641.0" AnchorPane.topAnchor="787.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="22.0" stroke="BLACK" strokeType="INSIDE" width="335.0" AnchorPane.rightAnchor="505.0" AnchorPane.topAnchor="1098.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="ACTION(S) LIEE(S) A UN SUJET SELECTIONNE" AnchorPane.rightAnchor="536.88" AnchorPane.topAnchor="1101.43" />
+            <AnchorPane layoutX="15.0" prefHeight="266.0" prefWidth="824.0" AnchorPane.topAnchor="1131.0">
+              <children>
+                <TableView prefHeight="266.0" prefWidth="824.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                  <columns>
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="159.0" style="-fx-background-color:cornflowerblue" text="Sujet" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="135.0" style="-fx-background-color:cornflowerblue" text="Action(s)" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="137.0" style="-fx-background-color:cornflowerblue" text="Visite" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="125.0" style="-fx-background-color:cornflowerblue" text="Date" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="91.0" style="-fx-background-color:cornflowerblue" text="Détail" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="74.0" style="-fx-background-color:cornflowerblue" text="To do list" />
+                    <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="102.0" style="-fx-background-color:cornflowerblue" text="Suppr action" />
+                  </columns>
+                </TableView>
+              </children>
+            </AnchorPane>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+  </center>
+  <left>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="500.0" stroke="WHITE" strokeType="INSIDE" width="50.0" />
+  </left>
+  <right>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="500.0" stroke="WHITE" strokeType="INSIDE" width="50.0" />
+  </right>
+  <top>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="10.0" stroke="WHITE" strokeType="INSIDE" width="1440.0" />
+  </top>
+</BorderPane>

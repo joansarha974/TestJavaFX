@@ -13,6 +13,8 @@ public class Action_ {
     private ActionType_ actionType;
     private Subject_ subject;
 
+    public Action_() {}
+
     public Long getId() {
         return id;
     }

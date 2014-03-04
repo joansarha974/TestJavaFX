@@ -13,6 +13,8 @@ public class User_ {
     private String surname;
     private List<Visit> visits;
 
+    public User_() {}
+
     public Long getId() {
         return id;
     }
