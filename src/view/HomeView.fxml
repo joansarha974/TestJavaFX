@@ -11,7 +11,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane id="BorderPane"
+<BorderPane id="BorderPaneHome"
             prefHeight="760.0"
             prefWidth="1440.0" xmlns:fx="http://javafx.com/fxml/1"
             xmlns="http://javafx.com/javafx/2.2"
@@ -37,14 +37,14 @@
               <top>
                 <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
                   <children>
-                    <TabPane style="-fx-background-color:forestgreen" fx:id="folder" layoutX="0.0"
+                    <TabPane style="-fx-background-color:forestgreen" fx:id="TabPaneFolder" layoutX="0.0"
                              layoutY="0.0" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0"
                              minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0"
                              tabClosingPolicy="UNAVAILABLE" tabMaxHeight="20.0" tabMinHeight="20.0">
                       <tabs>
                         <Tab text="RECHERCHE / TRI / FILTRE">
                           <content>
-                              <fx:include fx:id="searchView" source="SearchView.fxml"/>
+                              <fx:include fx:id="folderSearchView" source="FolderSearchView.fxml"/>
                           </content>
                         </Tab>
                         <Tab text="DOSSIER">
@@ -68,9 +68,33 @@
           </graphic>
         </Tab>
         <Tab text="HOTLINE">
-          <content>
-            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-          </content>
+            <content>
+                <BorderPane prefHeight="1440.0" prefWidth="760.0">
+                    <top>
+                        <AnchorPane prefHeight="-1.0" prefWidth="-1.0">
+                            <children>
+                                <TabPane style="-fx-background-color:forestgreen" fx:id="TabPaneHotline" layoutX="0.0"
+                                         layoutY="0.0" maxHeight="-1.0" maxWidth="-1.0" minHeight="-1.0"
+                                         minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0"
+                                         tabClosingPolicy="UNAVAILABLE" tabMaxHeight="20.0" tabMinHeight="20.0">
+                                    <tabs>
+                                        <Tab text="RECHERCHE / TRI / FILTRE">
+                                            <content>
+                                                <fx:include fx:id="hotlineSearchView" source="HotlineSearchView.fxml"/>
+                                            </content>
+                                        </Tab>
+                                        <Tab text="HOTLINE / STRUCTURE">
+                                            <content>
+                                                <fx:include fx:id="hotlineView" source="HotlineView.fxml"/>
+                                            </content>
+                                        </Tab>
+                                    </tabs>
+                                </TabPane>
+                            </children>
+                        </AnchorPane>
+                    </top>
+                </BorderPane>
+            </content>
         </Tab>
         <Tab text="ANNUAIRE">
           <content>

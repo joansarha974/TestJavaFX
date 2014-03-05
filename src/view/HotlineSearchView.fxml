@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.lang.String?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="borderPane_hotline_search" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.HotlineSearchController">
+  <center>
+    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <children>
+        <AnchorPane layoutX="308.0" layoutY="67.0" prefHeight="266.0" prefWidth="824.0">
+          <children>
+            <TableView fx:id="tableViewSearchHotlineStructure" prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columns>
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date dernier événement Hotline" fx:id="tableColumnSearchHotlineDate" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Structure" fx:id="tableColumnSearchHotlineStructure" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Référent-e" fx:id="tableColumnSearchHotlineRefE" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableColumnSearchHotlineUserBy" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Type entretien" fx:id="tableColumnSearchHotlineTypeEntretien" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableColumnSearchHotlineToDo" />
+                <TableColumn prefWidth="75.0" text="Actions" fx:id="tableColumnSearchFolderAction" />
+              </columns>
+            </TableView>
+          </children>
+        </AnchorPane>
+        <Label layoutX="105.0" layoutY="34.0" text="FILTRER" />
+        <CheckBox fx:id="check_all" layoutX="204.0" layoutY="35.0" mnemonicParsing="false" onAction="#onCheckAll" text="Tous" />
+        <CheckBox fx:id="check_mine" layoutX="329.0" layoutY="35.0" mnemonicParsing="false" onAction="#onCheckMine" text="Les miens" />
+        <CheckBox fx:id="check_todo" layoutX="472.0" layoutY="35.0" mnemonicParsing="false" onAction="#onCheckToDo" text="A faire" />
+      </children>
+    </AnchorPane>
+  </center>
+  <top>
+    <BorderPane prefHeight="200.0" prefWidth="200.0">
+      <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0">
+          <children>
+            <AnchorPane fx:id="search_label" prefHeight="190.0" prefWidth="1225.0" style="-fx-border-color:lawngreen; -fx-border-width: 2" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+              <children>
+                <Label blendMode="MULTIPLY" labelFor="$search_label" layoutX="575.0" layoutY="14.0" text="RECHERCHE">
+                  <font>
+                    <Font name="Arial" size="13.0" fx:id="x1" />
+                  </font>
+                </Label>
+                <Label font="$x1" layoutX="81.0" layoutY="88.0" text="NOM / SIGLE STRUCTURE" />
+                <Label font="$x1" layoutX="596.0" layoutY="88.0" text="REFERENT-E" />
+                <TextField layoutX="257.0" layoutY="84.0" prefWidth="200.0" />
+                <TextField layoutX="695.0" layoutY="84.0" prefWidth="200.0" />
+                <Button layoutX="1019.0" layoutY="76.0" minHeight="33.0" minWidth="38.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" text="">
+                  <graphic>
+                    <ImageView id="loupe-icon.png" fitHeight="33.0" fitWidth="33.0">
+                      <image>
+                        <Image url="@../images/loupe-icon.png" preserveRatio="true" smooth="true" />
+                      </image>
+                    </ImageView>
+                  </graphic>
+                </Button>
+              </children>
+            </AnchorPane>
+          </children>
+        </AnchorPane>
+      </center>
+      <left>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color:lawngreen; -fx-border-width: 2">
+          <children>
+            <Label layoutX="68.0" layoutY="14.0" text="TRIER PAR" />
+            <RadioButton fx:id="radioStructure" font="$x1" layoutX="51.0" layoutY="53.0" mnemonicParsing="false" onAction="#onRadioStructure" text="Structure" />
+            <RadioButton fx:id="radioEvent" font="$x1" layoutX="51.0" layoutY="96.0" mnemonicParsing="false" onAction="#onRadioEvent" text="Evénements" />
+            <RadioButton fx:id="radioSujectsActions" font="$x1" layoutX="51.0" layoutY="142.0" mnemonicParsing="false" onAction="#onRadioSubjects" text="Sujets / Actions" />
+          </children>
+          <padding>
+            <Insets />
+          </padding>
+          <BorderPane.margin>
+            <Insets top="10.0" />
+          </BorderPane.margin>
+        </AnchorPane>
+      </left>
+    </BorderPane>
+  </top>
+</BorderPane>

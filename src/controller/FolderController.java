@@ -18,6 +18,7 @@ import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 import jline.internal.Log;
 
@@ -129,6 +130,7 @@ public class FolderController implements Initializable{
     public AnchorPane content_folder;
     @FXML
     public ScrollPane scFolderPane;
+    public BorderPane borderPane_folder;
 
 
     // DEFINE TABLE

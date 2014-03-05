@@ -8,7 +8,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.VBox;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -16,44 +15,44 @@ import java.util.ResourceBundle;
 /**
  * Created by joanperny on 17/02/2014.
  */
-public class SearchController implements Initializable {
-    public VBox search_by;
+public class FolderSearchController implements Initializable {
+
     public AnchorPane search_label;
     public CheckBox check_todo;
     public CheckBox check_mine;
     public CheckBox check_all;
-    public BorderPane borderPane_folder;
     public RadioButton radioFolder;
     public RadioButton radioVisit;
     public RadioButton radioSujectsActions;
     public TableView tableViewSearchFolder;
     public TableView tableViewSearchVisit;
     public TableView tableViewSearchSubjectsActions;
-    public TableColumn tableViewSearchFolderDateVisite;
-    public TableColumn tableViewSearchFolderNoFolder;
-    public TableColumn tableViewSearchFolderNameSurname;
-    public TableColumn tableViewSearchFolderBirthday;
-    public TableColumn tableViewSearchFolderUserBy;
-    public TableColumn tableViewSearchFolderVisiteType;
-    public TableColumn tableViewSearchFolderToDo;
-    public TableColumn tableViewSearchFolderAction;
-    public TableColumn tableViewSearchVisitDate;
-    public TableColumn tableViewSearchVisitNameSurname;
-    public TableColumn tableViewSearchVisitPlace;
-    public TableColumn tableViewSearchVisitType;
-    public TableColumn tableViewSearchVisitUserBy;
-    public TableColumn tableViewSearchVisitNoFolder;
-    public TableColumn tableViewSearchVisitPourcent;
-    public TableColumn tableViewSearchVisitToDo;
-    public TableColumn tableViewSearchVisitAction;
-    public TableColumn tableViewSearchSADateVisite;
-    public TableColumn tableViewSearchSANameSurname;
-    public TableColumn tableViewSearchSAProblematic;
-    public TableColumn tableViewSearchSAActionDo;
-    public TableColumn tableViewSearchSAUserBy;
-    public TableColumn tableViewSearchSAPourcent;
-    public TableColumn tableViewSearchSAToDo;
-    public TableColumn tableViewSearchSAAction;
+    public TableColumn tableColumnSearchFolderDateVisite;
+    public TableColumn tableColumnSearchFolderNoFolder;
+    public TableColumn tableColumnSearchFolderNameSurname;
+    public TableColumn tableColumnSearchFolderBirthday;
+    public TableColumn tableColumnSearchFolderUserBy;
+    public TableColumn tableColumnSearchFolderVisiteType;
+    public TableColumn tableColumnSearchFolderToDo;
+    public TableColumn tableColumnSearchFolderAction;
+    public TableColumn tableColumnSearchVisitDate;
+    public TableColumn tableColumnSearchVisitNameSurname;
+    public TableColumn tableColumnSearchVisitPlace;
+    public TableColumn tableColumnSearchVisitType;
+    public TableColumn tableColumnSearchVisitUserBy;
+    public TableColumn tableColumnSearchVisitNoFolder;
+    public TableColumn tableColumnSearchVisitPourcent;
+    public TableColumn tableColumnSearchVisitToDo;
+    public TableColumn tableColumnSearchVisitAction;
+    public TableColumn tableColumnSearchSADateVisite;
+    public TableColumn tableColumnSearchSANameSurname;
+    public TableColumn tableColumnSearchSAProblematic;
+    public TableColumn tableColumnSearchSAActionDo;
+    public TableColumn tableColumnSearchSAUserBy;
+    public TableColumn tableColumnSearchSAPourcent;
+    public TableColumn tableColumnSearchSAToDo;
+    public TableColumn tableColumnSearchSAAction;
+    public BorderPane borderPane_folder_search;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

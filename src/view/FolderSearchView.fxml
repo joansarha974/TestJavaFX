@@ -10,7 +10,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane fx:id="borderPane_folder" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.SearchController">
+<BorderPane fx:id="borderPane_folder_search" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="760.0" prefWidth="1440.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="controller.FolderSearchController">
   <center>
     <AnchorPane prefHeight="200.0" prefWidth="200.0">
       <children>
@@ -18,39 +18,39 @@
           <children>
             <TableView fx:id="tableViewSearchFolder" prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <columns>
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date dernière visite" fx:id="tableViewSearchFolderDateVisite" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="No dossier" fx:id="tableViewSearchFolderNoFolder" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Nom - Prénom" fx:id="tableViewSearchFolderNameSurname" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Date de naissance" fx:id="tableViewSearchFolderBirthday" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableViewSearchFolderUserBy" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Type entretien" fx:id="tableViewSearchFolderVisiteType" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableViewSearchFolderToDo" />
-                <TableColumn prefWidth="75.0" text="Actions" fx:id="tableViewSearchFolderAction" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date dernière visite" fx:id="tableColumnSearchFolderDateVisite" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="No dossier" fx:id="tableColumnSearchFolderNoFolder" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Nom - Prénom" fx:id="tableColumnSearchFolderNameSurname" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Date de naissance" fx:id="tableColumnSearchFolderBirthday" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableColumnSearchFolderUserBy" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Type entretien" fx:id="tableColumnSearchFolderVisiteType" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableColumnSearchFolderToDo" />
+                <TableColumn prefWidth="75.0" text="Actions" fx:id="tableColumnSearchFolderAction" />
               </columns>
             </TableView>
             <TableView fx:id="tableViewSearchVisit" prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <columns>
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date visite" fx:id="tableViewSearchVisitDate" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Nom - Prénom" fx:id="tableViewSearchVisitNameSurname" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Lieu acceuil" fx:id="tableViewSearchVisitPlace" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Type entretien" fx:id="tableViewSearchVisitType" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableViewSearchVisitUserBy" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="No dossier" fx:id="tableViewSearchVisitNoFolder" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Remplissage des visites" fx:id="tableViewSearchVisitPourcent" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableViewSearchVisitToDo" />
-                <TableColumn prefWidth="75.0" text="Actions" fx:id="tableViewSearchVisitAction" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date visite" fx:id="tableColumnSearchVisitDate" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Nom - Prénom" fx:id="tableColumnSearchVisitNameSurname" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Lieu acceuil" fx:id="tableColumnSearchVisitPlace" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Type entretien" fx:id="tableColumnSearchVisitType" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableColumnSearchVisitUserBy" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="No dossier" fx:id="tableColumnSearchVisitNoFolder" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Remplissage des visites" fx:id="tableColumnSearchVisitPourcent" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableColumnSearchVisitToDo" />
+                <TableColumn prefWidth="75.0" text="Actions" fx:id="tableColumnSearchVisitAction" />
               </columns>
             </TableView>
             <TableView fx:id="tableViewSearchSubjectsActions" prefHeight="266.0" prefWidth="824.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
               <columns>
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date dernière visite" fx:id="tableViewSearchSADateVisite" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Nom - Prénom" fx:id="tableViewSearchSANameSurname" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Problématique(s)" fx:id="tableViewSearchSAProblematic" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Action(s)" fx:id="tableViewSearchSAActionDo" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableViewSearchSAUserBy" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Avancement" fx:id="tableViewSearchSAPourcent" />
-                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableViewSearchSAToDo" />
-                <TableColumn prefWidth="75.0" text="Boutons" fx:id="tableViewSearchSAAction" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="141.0" text="Date dernière visite" fx:id="tableColumnSearchSADateVisite" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="85.0" text="Nom - Prénom" fx:id="tableColumnSearchSANameSurname" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="127.0" text="Problématique(s)" fx:id="tableColumnSearchSAProblematic" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="130.0" text="Action(s)" fx:id="tableColumnSearchSAActionDo" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="94.0" text="Acceuilli par" fx:id="tableColumnSearchSAUserBy" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="110.0" text="Avancement" fx:id="tableColumnSearchSAPourcent" />
+                <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="60.0" text="A faire" fx:id="tableColumnSearchSAToDo" />
+                <TableColumn prefWidth="75.0" text="Boutons" fx:id="tableColumnSearchSAAction" />
               </columns>
             </TableView>
           </children>
